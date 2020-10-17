@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API services ",
+  "main": "index.js",
+  "repository": "git@github.com:hndcraftd/api.git",
+  "author": "jehfkemsy <jehf.denezaire@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=13.0"
+  },
+  "scripts": {
+    "start": "node ./bin/www.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^9.4.0",
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^9.2.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-compose": "^4.1.0"
+  }
+}
