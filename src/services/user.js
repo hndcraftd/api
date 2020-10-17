@@ -21,4 +21,8 @@ export default class UserService {
     const { _id, email, firstName, lastName, photo } = user;
     ctx.body = { id: _id, email, firstName, lastName, photo };
   };
+
+  update = () => {};
+
+  delete = () => {};
 }

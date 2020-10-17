@@ -21,5 +21,8 @@
     "koa": "^2.13.0",
     "koa-body": "^4.2.0",
     "koa-compose": "^4.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
   }
 }
